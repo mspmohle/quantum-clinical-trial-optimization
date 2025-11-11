@@ -1,0 +1,23 @@
+{
+  "total_shots": 2000,
+  "top_bitstring": "11111",
+  "top_prob": 0.165,
+  "top_return": 0.55,
+  "top_risk": 0.54,
+  "top_cost": 45.058,
+  "classical_optimum": {
+    "bitstring": "10110",
+    "cost": -27.148000000000003,
+    "return": 0.34,
+    "risk": 0.24,
+    "k": 3
+  },
+  "n_assets": 5,
+  "asset_labels": [
+    "A0",
+    "A1",
+    "A2",
+    "A3",
+    "A4"
+  ]
+}
