@@ -1,0 +1,7 @@
+{
+  "gamma_star": 0.0,
+  "beta_star": 0.0,
+  "expected_cost_qaoa": 11.420236,
+  "best_cost_classical": -27.148,
+  "delta_vs_classical": 38.568236
+}
