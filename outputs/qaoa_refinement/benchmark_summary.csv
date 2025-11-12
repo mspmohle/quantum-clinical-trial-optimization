@@ -1,0 +1,4 @@
+method,return,risk,expected_cost,gamma,beta
+Classical (Baseline),0.11000000000000001,0.064,0.04600000000000001,,
+QAOA (Sweep),,,-0.060250000000000005,0.0,0.0
+QAOA (Refined),,,-0.05575,0.0,0.0
