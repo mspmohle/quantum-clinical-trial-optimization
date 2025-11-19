@@ -1,0 +1,36 @@
+# ---------------------------
+# Python / Jupyter
+# ---------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.mypy_cache/
+.pytest_cache/
+.env
+.venv/
+env/
+venv/
+
+# ---------------------------
+# OS / editor noise
+# ---------------------------
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# ---------------------------
+# Large raw inputs / extracts
+# (keep derived metadata only)
+# ---------------------------
+ctgov_full_studies.zip
+clinical_trials_extracted/
+data/raw/
+logs/
+outputs/
+
+# If you later mirror any raw S3-like trees locally, ignore them here:
+# clinical-trials-data/raw/
