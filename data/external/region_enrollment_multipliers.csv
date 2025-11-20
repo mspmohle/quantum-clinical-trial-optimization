@@ -1,0 +1,8 @@
+region_label,enrollment_multiplier
+North America,1.0
+Western Europe,0.95
+Eastern Europe,1.05
+Asia-Pacific,1.1
+Latin America,0.9
+Middle East & Africa,0.85
+Global / Multi-Region,1.0

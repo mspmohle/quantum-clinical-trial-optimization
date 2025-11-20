@@ -1,0 +1,10 @@
+phase,cost_multiplier
+Early Phase 1,0.8
+Phase 1,1.0
+Phase 1/Phase 2,1.5
+Phase 2,2.0
+Phase 2/Phase 3,3.0
+Phase 3,4.0
+Phase 4,2.5
+N/A,1.0
+None,1.0
