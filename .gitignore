@@ -1,13 +1,22 @@
+# ============================================================
+# .gitignore — quantum-clinical-trial-optimization
+# Policy:
+#   - Never commit large/raw/interim artifacts
+#   - Only commit small, reproducible reference/samples
+# ============================================================
+
 # ---------------------------
-# Python / Jupyter
+# Python / Jupyter / tooling
 # ---------------------------
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
 .ipynb_checkpoints/
 .mypy_cache/
 .pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
 .env
 .venv/
 env/
@@ -17,20 +26,49 @@ venv/
 # OS / editor noise
 # ---------------------------
 .DS_Store
+Thumbs.db
 *.swp
 *.swo
 .vscode/
 .idea/
 
 # ---------------------------
+# Credentials / local state
+# ---------------------------
+existing_keys.json
+*.log
+
+# ---------------------------
 # Large raw inputs / extracts
-# (keep derived metadata only)
 # ---------------------------
 ctgov_full_studies.zip
 clinical_trials_extracted/
-data/raw/
-logs/
-outputs/
 
 # If you later mirror any raw S3-like trees locally, ignore them here:
 # clinical-trials-data/raw/
+
+# ---------------------------
+# Generated outputs (never commit)
+# ---------------------------
+logs/
+outputs/
+
+# Project data layers (generated or large)
+data/raw/
+data/interim/
+data/curated/
+data/summary/
+
+# ---------------------------
+# Common large artifacts anywhere (safety net)
+# ---------------------------
+*.parquet
+*.csv.gz
+*.zip
+
+# ---------------------------
+# Allow-list: small, shareable samples
+# (so samples can be tracked even if they're parquet/csv.gz)
+# ---------------------------
+!data/samples/
+!data/samples/**
