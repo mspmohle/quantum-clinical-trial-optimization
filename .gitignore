@@ -72,3 +72,6 @@ data/summary/
 # ---------------------------
 !data/samples/
 !data/samples/**
+git push origin main
+.gitignore.local.backup
+sample_list.txt
