@@ -1,0 +1,2 @@
+scenario,n_variables,portfolio_k_target,selected_count,solver_method,qubo_cost,qubo_path,selected_csv,bitstring_txt,created_utc
+A,18,6,3,exact,-1052.1176470588236,data/qubo/scenario_A_qubo.json,data/results/scenario_A_classical_selected_trials.csv,data/results/scenario_A_best_bitstring.txt,2025-11-26T20:57:09.330949Z
