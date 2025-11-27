@@ -78,6 +78,10 @@ data/summary/
 !data/samples/*.csv.gz
 !data/samples/*.csv
 
+# Ignore local 03e run outputs (derived)
+data/results/03e_*
+
+
 git push origin main
 .gitignore.local.backup
 sample_list.txt
