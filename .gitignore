@@ -72,6 +72,12 @@ data/summary/
 # ---------------------------
 !data/samples/
 !data/samples/**
+# --- Allow tracked "small samples" for GitHub (exceptions to global ignores) ---
+!data/samples/
+!data/samples/*.parquet
+!data/samples/*.csv.gz
+!data/samples/*.csv
+
 git push origin main
 .gitignore.local.backup
 sample_list.txt
