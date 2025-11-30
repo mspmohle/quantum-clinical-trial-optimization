@@ -1,0 +1,3 @@
+config_key,jacc_05a_vs_05b,jacc_05a_vs_05b2,jacc_05b_vs_05b2,size_05a,size_05b,size_05b2,intersect_abc
+K=6|lc=0.5|ls=1.0|sig=0.0,0.0,0.0,0.0,0,6,6,0
+K=6|lc=0.5|ls=2.0|sig=0.0,0.0,0.0,0.0,0,6,6,0

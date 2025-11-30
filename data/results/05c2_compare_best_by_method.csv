@@ -1,0 +1,4 @@
+K,_config_key,jaccard_mean,jaccard_std,lambda_cost,lambda_safety,method,n_runs,noise_sigma,objective_mean,objective_norm_mean,objective_std,p,p__dup1,penalty_A,penalty_A__dup1,pool_size,pool_size__dup1,shots,shots__dup1
+25,K=25|lc=0.5|ls=0.5|sig=0.1,0.0027027027027027,0.0060434269662156,0.5,0.5,05a_greedy,5,0.1,-1.441677262379783,0.9994572909846188,0.1183585570210227,,,,,,,,
+6,K=6|lc=0.5|ls=0.5|sig=0.1,0.3636363636363636,0.0,0.5,0.5,05b_qaoa,3,0.1,-1.9512977584245577,0.996849638221898,0.1065275759910408,1.0,1.0,10.0,10.0,12.0,12.0,128.0,128.0
+6,K=6|lc=0.5|ls=2.0|sig=0.0,1.0,0.0,0.5,2.0,05b2_qaoa_aer,3,0.0,12.0,1.0,0.0,,,10.0,10.0,6.0,6.0,1024.0,1024.0
