@@ -1,0 +1,2 @@
+scenario,method,n_candidates,K,lambda_cost,lambda_safety,penalty_A,selected_n,qubo_energy,linear_objective_only
+B,classical_greedy_fixK,60,10,1.0,1.0,10.0,10,-990.0,10.0
