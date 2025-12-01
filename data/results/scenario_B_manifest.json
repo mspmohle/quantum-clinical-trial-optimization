@@ -1,0 +1,31 @@
+{
+  "scenario": "B",
+  "created_at_local": "2025-12-01T16:10:41",
+  "metadata_source": "data/interim/clinical_trials_metadata.parquet",
+  "top_n_sponsors": 25,
+  "max_candidates": 60,
+  "status_allow": [
+    "ACTIVE_NOT_RECRUITING",
+    "ENROLLING_BY_INVITATION",
+    "RECRUITING"
+  ],
+  "phase_allow": [
+    "PHASE2",
+    "PHASE2_PHASE3",
+    "PHASE3"
+  ],
+  "columns_used": {
+    "sponsor_col": "lead_sponsor",
+    "status_col": "overall_status",
+    "phase_col": "phase",
+    "region_col": null,
+    "title_col": "brief_title",
+    "benefit_source": "proxy_from_phase",
+    "cost_source": "proxy_from_phase",
+    "safety_source": "missing_set_to_0"
+  },
+  "outputs": {
+    "scenario_ids_csv": "data/scenarios/scenario_B_trial_ids.csv",
+    "scenario_candidates_csv": "data/processed/scenario_B_candidates.csv"
+  }
+}
