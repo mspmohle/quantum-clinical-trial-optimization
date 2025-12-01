@@ -1,0 +1,41 @@
+{
+  "summary": {
+    "scenario": "A",
+    "braket_device": "SV1",
+    "device_arn": "arn:aws:braket:::device/quantum-simulator/amazon/sv1",
+    "shots": 200,
+    "p": 1,
+    "gamma": 0.2,
+    "beta": 0.2,
+    "best_observed_qubo_energy": -1052.1176470588236,
+    "selected_n": 3,
+    "task_id": "arn:aws:braket:us-west-2:581610642254:quantum-task/930c8f2b-6fa4-42f9-8d75-1cf487b921b4",
+    "braket_results_bucket": "amazon-braket-us-west-2-581610642254",
+    "braket_results_prefix": "results/braket/scenario_A/sv1_tasks",
+    "project_bucket": "quantum-clinical-optimization-us-west-2",
+    "source_qubo_file": "data/qubo/scenario_A_qubo.json"
+  },
+  "best_bitstring": "000000100000001010",
+  "measurement_counts_top20": {
+    "000100010010110001": 1,
+    "011001100000100100": 1,
+    "000001011100000001": 1,
+    "010110011111111111": 1,
+    "110000000010101001": 1,
+    "001010111001100111": 1,
+    "000010011011011110": 1,
+    "001011000001100100": 1,
+    "001001100110101011": 1,
+    "110111111001101111": 1,
+    "110000110111000101": 1,
+    "000100000011100001": 1,
+    "111111101011001011": 1,
+    "111001000000010000": 1,
+    "101101001101100100": 1,
+    "011110010110100001": 1,
+    "111010101111111110": 1,
+    "110111111111110011": 1,
+    "111111100111111010": 1,
+    "100000000011011001": 1
+  }
+}
