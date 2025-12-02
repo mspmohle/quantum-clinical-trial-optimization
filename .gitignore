@@ -86,3 +86,4 @@ git push origin main
 .gitignore.local.backup
 sample_list.txt
 data/results/07b_qaoa_checkpoint_partial.csv
+data/results/07b_qaoa_checkpoint_partial.csv
