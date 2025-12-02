@@ -1,0 +1,2 @@
+method,scenario,n_full,n_pool,selected_n_full,qubo_energy_full,qubo_energy_sub,pool_strategy,results_json_key,braket_task_bucket,braket_task_prefix
+SV1_QAOA_POOLSUB,B,60,34,10,-990.0,-990.0,best_diag,clinical-trials-data/results/sv1_tasks/scenario_B/78808096-278b-4669-b656-361c3d963aec/results.json,amazon-braket-us-west-2-581610642254,clinical-trials-data/results/sv1_tasks/scenario_B
