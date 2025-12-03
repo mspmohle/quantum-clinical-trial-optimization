@@ -1,0 +1,2 @@
+scenario,n_candidates,K,objective_energy,selected_n,unique_sponsors,safety_col,qubo_path
+C,60,10,-420.0,10,6,_safety_raw,data/qubo_scenarios/scenario_C_qubo.json
