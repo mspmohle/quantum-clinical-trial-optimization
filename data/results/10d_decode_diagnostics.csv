@@ -1,0 +1,8 @@
+results_json_key,n_samples,measured_qubits_len,qubo_dim,top_level_keys
+clinical-trials-data/results/sv1_tasks/scenario_C/04b33e82-35e9-418f-872b-25a7012f6bac/results.json,100,34,60,"braketSchemaHeader,measurements,resultTypes,measuredQubits,taskMetadata,additionalMetadata"
+clinical-trials-data/results/sv1_tasks/scenario_C/24a0561c-0c36-45f9-ad73-a76d50cb67cb/results.json,200,34,60,"braketSchemaHeader,measurements,resultTypes,measuredQubits,taskMetadata,additionalMetadata"
+clinical-trials-data/results/sv1_tasks/scenario_C/2e855d38-5da3-459e-a800-7bbc35148b38/results.json,100,34,60,"braketSchemaHeader,measurements,resultTypes,measuredQubits,taskMetadata,additionalMetadata"
+clinical-trials-data/results/sv1_tasks/scenario_C/435154ab-827e-460a-b503-06b1662e7968/results.json,200,34,60,"braketSchemaHeader,measurements,resultTypes,measuredQubits,taskMetadata,additionalMetadata"
+clinical-trials-data/results/sv1_tasks/scenario_C/6b9614ad-e00d-4331-97d1-0961d1aea55b/results.json,100,34,60,"braketSchemaHeader,measurements,resultTypes,measuredQubits,taskMetadata,additionalMetadata"
+clinical-trials-data/results/sv1_tasks/scenario_C/6c4d0b7d-e177-4382-8196-6664f3eb3f14/results.json,200,34,60,"braketSchemaHeader,measurements,resultTypes,measuredQubits,taskMetadata,additionalMetadata"
+clinical-trials-data/results/sv1_tasks/scenario_C/f0269282-1e08-406e-99d2-6feb10cdd4f8/results.json,100,34,60,"braketSchemaHeader,measurements,resultTypes,measuredQubits,taskMetadata,additionalMetadata"

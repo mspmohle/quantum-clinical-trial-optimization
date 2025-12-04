@@ -1,0 +1,15 @@
+{
+  "source": "s3_results_json_resume",
+  "braket_bucket": "amazon-braket-us-west-2-581610642254",
+  "braket_prefix": "clinical-trials-data/results/sv1_tasks/scenario_C/",
+  "results_json_key": "clinical-trials-data/results/sv1_tasks/scenario_C/04b33e82-35e9-418f-872b-25a7012f6bac/results.json",
+  "bitstring": "0000000000001010000000000000000000",
+  "support": 2,
+  "energy": null,
+  "bit_order": "LR",
+  "scoring": "frequency",
+  "measured_qubits_len": 34,
+  "qubo_dim_used": null,
+  "used_qubo_scoring": false,
+  "qubo_path": "data/qubo_scenarios/scenario_C_qubo.json"
+}

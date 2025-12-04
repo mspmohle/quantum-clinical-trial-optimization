@@ -1,0 +1,2 @@
+braket_bucket,braket_prefix,results_json_key,bitstring,support,energy_fullqubo,energy_subqubo,scoring,measured_qubits_len,pool_idx_len
+amazon-braket-us-west-2-581610642254,clinical-trials-data/results/sv1_tasks/scenario_C/,clinical-trials-data/results/sv1_tasks/scenario_C/04b33e82-35e9-418f-872b-25a7012f6bac/results.json,0000000000001010000000000000000000,2,,,frequency,34,
