@@ -1,0 +1,5 @@
+scenario,gamma,beta,shots,task_arn,created_utc,n_full,n_pool,pool_strategy,braket_bucket,braket_prefix
+C,0.6,0.6,100,arn:aws:braket:us-west-2:581610642254:quantum-task/04b33e82-35e9-418f-872b-25a7012f6bac,2025-12-04T11:33:08.874192+00:00,60,34,best_diag,amazon-braket-us-west-2-581610642254,clinical-trials-data/results/sv1_tasks/scenario_C
+C,0.6,1.2,100,arn:aws:braket:us-west-2:581610642254:quantum-task/f0269282-1e08-406e-99d2-6feb10cdd4f8,2025-12-04T11:33:09.249515+00:00,60,34,best_diag,amazon-braket-us-west-2-581610642254,clinical-trials-data/results/sv1_tasks/scenario_C
+C,1.2,0.6,100,arn:aws:braket:us-west-2:581610642254:quantum-task/2e855d38-5da3-459e-a800-7bbc35148b38,2025-12-04T11:33:09.607920+00:00,60,34,best_diag,amazon-braket-us-west-2-581610642254,clinical-trials-data/results/sv1_tasks/scenario_C
+C,1.2,1.2,100,arn:aws:braket:us-west-2:581610642254:quantum-task/6b9614ad-e00d-4331-97d1-0961d1aea55b,2025-12-04T11:33:09.963411+00:00,60,34,best_diag,amazon-braket-us-west-2-581610642254,clinical-trials-data/results/sv1_tasks/scenario_C
