@@ -12,3 +12,15 @@ AWS Braket SV1 QAOA execution with results persisted to S3
 The goal is to be reproducible and artifact-driven: each notebook writes versioned outputs to data/results/ and outputs/figures/ (and optionally outputs/slides/).
 
 **Repository Structure**
+```text
+.
+├── data/
+│   ├── interim/              # large local artifacts (often gitignored)
+│   ├── results/              # reproducible outputs committed when reasonable
+│   └── summary/              # small rollups and profiling CSVs
+├── outputs/
+│   ├── figures/              # plots saved from notebooks
+│   └── slides/               # generated PPTX (optional, may be gitignored)
+├── docs/                     # (optional) deeper writeups
+├── *.ipynb                   # numbered notebooks (pipeline + experiments)
+└── README.md
