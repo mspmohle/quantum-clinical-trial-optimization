@@ -26,7 +26,7 @@ The goal is to be reproducible and artifact-driven: each notebook writes version
 └── README.md
 
 
-**Python Artifacts**
+Python Artifacts
 
 00_generate_reference_tables.py — Generates small reference tables used downstream (e.g., phase cost factors, region multipliers, lookup scaffolding) so scenario notebooks can join “known” inputs consistently.
 01_clinical_trials_ingestion.ipynb — Ingests the ClinicalTrials.gov XML corpus from S3, parses/normalizes trial metadata at scale, and writes intermediate parquet plus sample/summary CSV artifacts for GitHub.
