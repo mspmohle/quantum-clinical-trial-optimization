@@ -1,0 +1,14 @@
+var_index,nct_id,brief_title,overall_status,phase,conditions,interventions,location_countries,lead_sponsor,lead_sponsor_norm,region_label,estimated_trial_cost,enrollment_feasibility_score,benefit_score,cost_safe,benefit_per_cost,var_index_old
+0,NCT00003042,Chemotherapy and Stem Cell Transplantation in Treating Patients With Stage IIIB Breast Cancer,"Active, not recruiting",Phase 2,['Breast Cancer'],"['filgrastim' 'cisplatin' 'cyclophosphamide' 'doxorubicin hydrochloride'
+ 'melphalan' 'mesna' 'paclitaxel' 'tamoxifen citrate'
+ 'bone marrow ablation with stem cell support' 'conventional surgery'
+ 'peripheral blood stem cell transplantation']",['United States'],City of Hope Medical Center,City of Hope Medical Center,Global / Multi-Region,2.0,1.0,0.6,2.0,0.3,0
+1,NCT06234631,Cannabidiol for Postoperative Opioid Reduction in Primary Total Knee Arthroplasty,Recruiting,Phase 2,"['Knee Replacement Surgery' 'Osteoarthritis, Knee']",['Epidiolex oral solution' 'Placebo'],['United States'],Chad Brummett,Chad Brummett,Global / Multi-Region,2.0,1.0,0.6,2.0,0.3,1
+2,NCT06257537,Sustained Acoustic Medicine for Symptomatic Treatment of Knee Pain Related to Osteoarthritis,Recruiting,Phase 2,['Osteo Arthritis Knee' 'Arthritis'],"['Sustained Acoustic Device with 2.5% Diclofenac Patch'
+ 'Sustained Acoustic Device with 0% Diclofenac Patch'
+ '2.5% Diclofenac Patches' 'SAM Patch']",['United States'],"ZetrOZ, Inc.","ZetrOZ, Inc.",Global / Multi-Region,2.0,1.0,0.6,2.0,0.3,2
+3,NCT06257875,A Study to Assess Adverse Events and Change in Disease Activity From Intravenous (IV) and Subcutaneous (SC) Lutikizumab in Adult Participants With Active Ulcerative Colitis,"Active, not recruiting",Phase 2,['Ulcerative Colitis'],['Lutikizumab' 'Lutikizumab' 'Adalimumab'],"['Australia' 'Austria' 'Belgium' 'Bulgaria' 'Canada' 'Croatia' 'Estonia'
+ 'France' 'Germany' 'Greece' 'Hungary' 'Ireland' 'Israel' 'Italy' 'Japan'
+ 'Latvia' 'Lithuania' 'New Zealand' 'Norway' 'Poland' 'Puerto Rico'
+ 'Serbia' 'Slovenia' 'South Africa' 'South Korea' 'Spain' 'Switzerland'
+ 'Taiwan' 'United Kingdom' 'United States']",AbbVie,AbbVie,Global / Multi-Region,2.0,1.0,0.6,2.0,0.3,3

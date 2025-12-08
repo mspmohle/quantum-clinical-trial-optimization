@@ -1,0 +1,2 @@
+scenario,braket_device,device_arn,shots,p,gamma,beta,best_observed_qubo_energy,selected_n,task_id,braket_results_bucket,braket_results_prefix,project_bucket,source_qubo_file
+A,SV1,arn:aws:braket:::device/quantum-simulator/amazon/sv1,200,1,0.2,0.2,-1052.1176470588236,3,arn:aws:braket:us-west-2:581610642254:quantum-task/930c8f2b-6fa4-42f9-8d75-1cf487b921b4,amazon-braket-us-west-2-581610642254,results/braket/scenario_A/sv1_tasks,quantum-clinical-optimization-us-west-2,data/qubo/scenario_A_qubo.json

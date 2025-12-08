@@ -1,0 +1,7 @@
+method_a,method_b,n_a,n_b,intersection,union,jaccard
+classical,classical,3,3,3,3,1.0
+classical,qaoa,3,6,1,8,0.125
+classical,sv1_reference,3,4,0,7,0.0
+qaoa,qaoa,6,6,6,6,1.0
+qaoa,sv1_reference,6,4,0,10,0.0
+sv1_reference,sv1_reference,4,4,4,4,1.0

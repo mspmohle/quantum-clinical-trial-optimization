@@ -1,0 +1,2 @@
+notebook,device_final,optimized_on,p,K_variables,expected_qubo_cost,most_prob_bitstring,most_prob_probability,most_prob_cost,min_cost_bitstring,min_cost_probability,min_cost_cost,exact_global_opt_bitstring,exact_global_opt_cost,selected_count,selected_total_estimated_cost,selected_total_benefit
+03d_qaoa_sv1_run,SV1,LocalSimulator,1,18,534.5678539478833,001100011010001110,6.656075298258485e-06,-4.799999999999727,111100000000000000,4.129502073222017e-06,-642.4000000000001,111100000000000000,-642.4000000000001,4,8.0,2.4

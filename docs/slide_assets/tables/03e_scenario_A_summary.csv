@@ -1,0 +1,2 @@
+tag,n_variables,portfolio_k,final_run_device,p_layers,gamma,beta,estimated_expected_cost_sampled,best_sampled_cost,best_sampled_cardinality,selected_benefit_sum,selected_cost_sum
+03e_scenario_A,18,6,SV1,1,1.7285714285714286,0.6428571428571428,1673.7995294117643,-304.2352941176473,6,3.6,12.0
