@@ -1,8 +1,10 @@
 # ============================================================
 # .gitignore — quantum-clinical-trial-optimization
+#
 # Policy:
 #   - Never commit large/raw/interim artifacts
-#   - Only commit small, reproducible reference/samples
+#   - Commit only small, reproducible reference artifacts
+#   - Outputs are generally ignored, except slide decks we publish
 # ============================================================
 
 # ---------------------------
@@ -43,20 +45,30 @@ existing_keys.json
 # ---------------------------
 ctgov_full_studies.zip
 clinical_trials_extracted/
-
 # If you later mirror any raw S3-like trees locally, ignore them here:
 # clinical-trials-data/raw/
 
 # ---------------------------
-# Generated outputs (never commit)
+# Generated outputs (default: ignore)
 # ---------------------------
 logs/
-outputs/
 
+# Ignore all outputs by default...
+outputs/*
+# ...but allow slide decks we intentionally publish
+!outputs/slides/
+outputs/slides/*
+!outputs/slides/*.pptx
+
+# ---------------------------
 # Project data layers (generated or large)
+# ---------------------------
 data/raw/
 data/interim/
 data/curated/
+
+# We usually keep summary outputs out of git; if you later want to publish specific
+# summaries, prefer copying them into docs/ or data/samples/
 data/summary/
 
 # ---------------------------
@@ -67,22 +79,25 @@ data/summary/
 
 # ---------------------------
 # Allow-list: small, shareable samples
-# (so samples can be tracked even if they're parquet/csv.gz)
 # ---------------------------
 !data/samples/
 !data/samples/**
-# --- Allow tracked "small samples" for GitHub (exceptions to global ignores) ---
-!data/samples/
-!data/samples/*.parquet
-!data/samples/*.csv.gz
-!data/samples/*.csv
 
-# Ignore local 03e run outputs (derived)
+# Ignore local 03e run outputs (derived) — keep the canonical Scenario A artifacts
 data/results/03e_*
 
+# ---------------------------
+# Results hygiene (keep repo clean)
+# ---------------------------
+# Checkpoints / partials should not be versioned
+data/results/*checkpoint*.csv
+data/results/*partial*.csv
 
-git push origin main
-.gitignore.local.backup
-sample_list.txt
-data/results/07b_qaoa_checkpoint_partial.csv
-data/results/07b_qaoa_checkpoint_partial.csv
+# Generated runner scripts should not be versioned
+data/results/_run_*.py
+
+# ---------------------------
+# Docs artifacts we DO publish
+# ---------------------------
+!docs/slide_assets.zip
+!docs/slide_assets/**
