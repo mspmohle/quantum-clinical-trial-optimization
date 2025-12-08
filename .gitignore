@@ -64,7 +64,6 @@ data/summary/
 # ---------------------------
 *.parquet
 *.csv.gz
-*.zip
 
 # ---------------------------
 # Allow-list: small, shareable samples
