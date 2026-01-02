@@ -22,7 +22,7 @@ The goal is to be reproducible and artifact-driven: each notebook writes version
 ├── docs/                     # (optional) deeper writeups
 ├── *.ipynb                   # numbered notebooks (pipeline + experiments)
 └── README.md
-
+```
 
 **Python Artifacts**
 
